@@ -1,0 +1,26 @@
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    height: 15%;
+    width: 15%;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+p {
+}
+
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif; 
+    background: url("assets/images/gravel.png");
+}
+footer {
+    background-color: #666666;
+    

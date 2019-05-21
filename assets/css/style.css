@@ -1,54 +1,38 @@
-h1 {
-    color: white;
-    background-color: #4aaaa5;
+header {
+    background-color:#4aaaa5;
+    margin-left: 100px;
+    border: solid red
+}
+#Top-Banner {
+    color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 0px;
-    border-color: #dddddd;
-    width: 960px;
-    margin: 0 auto;
-
+    padding-right: 50px;
 }
-
-img {
-    height: 15%;
-    width: 15%;
-    float:left;
-    margin-right:20px;
-    
-}
-
-h2 {
-    color: #4aaaa5;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 960px;
-}
-
-p {
-    margin:20px;
-   
+.logo {
+    border: solid blue;
+    margin-right: 50px;
 }
 
 ul {
-    align-content: center;
-    
+    float: right;
 }
+
 body {
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif; 
-    background: url("assets/images/gravel.png");
- 
+    border: solid black;
+    background-color: #ffffff;
 }
-.header-container {
-    margin:20px;
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding-left: 25px;
 }
-.container {
-    width: 960px;
-    margin: 0 auto;
-    border: solid 1px #dddddd
+img {
+    height: 150px;
+    width: 150px;
+    padding-left: 25px;
 }
-footer {
-    background-color: #666666;
-    
+.content {
+    border: solid green;
+    margin-top: 50px; 
+    margin-left: 100px;
+}

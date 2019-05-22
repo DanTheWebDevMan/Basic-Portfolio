@@ -1,9 +1,13 @@
+#page-container {
+    position: relative;
+    min-height: 100%;
+}
 header {
     background-color:white;
-    margin-left: 160px;
+    margin-left: 120px;
     border-bottom: solid #dddddd;
-    width: 960px;
 }
+
 #Top-Banner {
     background-color:#4aaaa5;
     color:white;
@@ -18,55 +22,78 @@ header {
 }
 
 ul {
-    float: right;
-    float: top;
+    display: inline;
+    position: relative;
+    top:0;
+    width:100%;
+}
+
+li {
+    float:right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    
 }
 nav {
     border-bottom: #dddddd;
     color: #777777;;
+
 }
 body {
     border: solid black;
     background-color: #ffffff;
-    background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-image: url("Basic-Portfolio/assets/images/gravel.png");
     margin:0; 
+    height: 100%;
 }
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    padding-left: 25px;
-    padding-right: -25px;
+    padding-left: 20px;
+    padding-right: -20px;
     border-bottom: #cccccc;
+    margin-bottom: 20px;
 }
 img {
     height: 150px;
     width: 150px;
     padding-left: 20px;
-    margin: 20px;
+    margin-left:10px;
+    margin-right: 20px;
+    margin-top: 0px;
     float: left;
+    margin-bottom: 20px;
 }
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .content {
     border: solid #dddddd;
+    width: 960px;
     margin-top: 50px; 
-    margin-left: 160px;
-    margin-bottom: 125px;
-    margin-right: 160px;
+    margin-left: 120px;
+    margin-bottom: 120px;
+    margin-right: 120px;
     background-color:white;
-    padding-bottom: 50px;
+    padding-bottom: auto 50px;
+    padding-left: auto 20px;
+    padding-right: auto 20px;
 }
+
 footer {
-    border-top: solid 5px #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     text-align: center;
-    background-color:  #777777;
-    height: 50px;
+    background-color:  #666666;
+    height:50px;
+    margin-top:-50;
     color: white;
-    margin-top: 45px;
-    margin-bottom:0px;  
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
